@@ -1,0 +1,76 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  background-image: url(/space.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.box-1 {
+  width: 500px;
+  height: 400px;
+  margin: 25vh auto;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 20px;
+  box-shadow: 8px 8px 8px 15px #4e50b69a;
+  border-radius: 5px;
+}
+
+h1 {
+  font-size: 2.5em;
+  color: rgb(45, 76, 76);
+}
+h2 {
+  font-size: 150px;
+  margin: -10px;
+  color: rgb(67, 74, 74);
+}
+.counts {
+  width: 100%;
+  display: inline-flex;
+  justify-content: space-around;
+}
+
+a {
+  position: absolute;
+  bottom: 60px;
+  letter-spacing: 5px;
+  font-weight: bold;
+  text-decoration: none;
+  color: rgb(250, 249, 252);
+}
+
+button {
+  padding: 10px;
+  border: none;
+  background-color: rgb(96, 75, 166);
+  color: white;
+  border-radius: 5px;
+  box-shadow: 5px 10px 8px #4e50b69a;
+  cursor: pointer;
+}
+button:hover {
+  background-color: rgb(82, 108, 194);
+}
+
+@media (max-width:525px) {
+  .box-1 {
+    width: 85%;
+  }
+  .number {
+    font-size: 120px;
+  }
+}
