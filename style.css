@@ -8,11 +8,7 @@ body {
   width: 100%;
   height: 100vh;
   overflow: hidden;
-<<<<<<< Updated upstream
   background-image: url(./space.jpg);
-=======
-  background-image: url(./image/space.jpg);
->>>>>>> Stashed changes
   background-size: cover;
   background-repeat: no-repeat;
   display: flex;
